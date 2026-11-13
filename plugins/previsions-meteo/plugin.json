@@ -1,0 +1,28 @@
+{
+  "name": "Prévisions météo",
+  "description": "Annonce la pluie, la neige, les orages et le brouillard de la map à venir (jusqu'à 6 h), calculés comme le jeu les calcule. Dans la barre du jeu, avec une alerte avant l'arrivée si vous le voulez.",
+  "version": "1.0.0",
+  "author": "Volting",
+  "settings": [
+    { "id": "watch", "type": "select", "label": "Surveiller", "default": "tout",
+      "options": [
+        { "value": "tout", "label": "Pluie, neige, orages et brouillard" },
+        { "value": "precipitations", "label": "Pluie, neige et orages" },
+        { "value": "orages", "label": "Orages seulement" }
+      ] },
+    { "id": "hours", "type": "select", "label": "Horizon des prévisions", "default": "3",
+      "options": [
+        { "value": "1", "label": "1 heure" },
+        { "value": "3", "label": "3 heures" },
+        { "value": "6", "label": "6 heures" }
+      ] },
+    { "id": "alertBefore", "type": "select", "label": "Prévenir avant l'arrivée", "default": "5",
+      "options": [
+        { "value": "0", "label": "Jamais" },
+        { "value": "5", "label": "5 minutes avant" },
+        { "value": "10", "label": "10 minutes avant" },
+        { "value": "15", "label": "15 minutes avant" }
+      ] },
+    { "id": "detailKey", "type": "key", "label": "Raccourci du détail des prochaines heures", "default": "Alt+M" }
+  ]
+}

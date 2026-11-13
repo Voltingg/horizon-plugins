@@ -24,6 +24,17 @@
       }
     },
     {
+      "id": "previsions-meteo",
+      "name": "Prévisions météo",
+      "description": "Annonce la pluie, la neige, les orages et le brouillard de la map à venir (jusqu'à 6 h), calculés comme le jeu les calcule. Dans la barre du jeu, avec une alerte avant l'arrivée si vous le voulez.",
+      "version": "1.0.0",
+      "author": "Volting",
+      "files": {
+        "plugin.json": "9d6b4b85000267cff9eacc4f35026986aede10188a406186c3da02129ad989ea",
+        "main.js": "cbbd76716400ef66768cd10826eef00c863b7d7918158f96932dc98c640d77b3"
+      }
+    },
+    {
       "id": "teleporteur",
       "name": "Téléporteur",
       "description": "Ouvre la carte du téléporteur d’un raccourci (Alt+T par défaut) (le légendaire en priorité).",
