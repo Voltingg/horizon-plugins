@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "plugins": [
+    {
+      "id": "anti-pluie",
+      "name": "Anti-pluie",
+      "description": "Coupe la pluie et la neige (et leur son), quelle que soit la qualité (Ruffle natif). Son état s'affiche dans la barre du jeu.",
+      "version": "1.0.0",
+      "author": "Horizon",
+      "files": {
+        "plugin.json": "baeff288af4b0286e6ea2d001fd11bc4b631b40c30a212c83a760152c4a98143",
+        "main.js": "5c8ece71c86a98ed0ae2ae6766c9607d6202b6b3bd000925369b94d94a76de50"
+      }
+    },
+    {
+      "id": "jetpack",
+      "name": "Jetpack",
+      "description": "Active ou coupe le jetpack d’un raccourci (Alt+V par défaut) (le légendaire en priorité).",
+      "version": "1.1.0",
+      "author": "Horizon",
+      "files": {
+        "plugin.json": "e415a265ae09e42befde0700cca49838b3492796eda509bc8771c3e0a91fb826",
+        "main.js": "45ec2889727f4bff66e8a99749f243d473b5df2445be4348bf53848d9156537e"
+      }
+    },
+    {
+      "id": "teleporteur",
+      "name": "Téléporteur",
+      "description": "Ouvre la carte du téléporteur d’un raccourci (Alt+T par défaut) (le légendaire en priorité).",
+      "version": "1.1.0",
+      "author": "Horizon",
+      "files": {
+        "plugin.json": "0f9144b32ef9f793949233ceffb3f9f829ca89c99ee729686b54f9ab582d9221",
+        "main.js": "2e5c4e5ebc063f857c06c25183232983f0ec0988cedc4df5d78554ce8d9618c5"
+      }
+    }
+  ]
+}

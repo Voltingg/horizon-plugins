@@ -1,0 +1,13 @@
+{
+  "name": "Téléporteur",
+  "description": "Ouvre la carte du téléporteur d’un raccourci (Alt+T par défaut) (le légendaire en priorité).",
+  "version": "1.1.0",
+  "settings": [
+    {
+      "id": "key",
+      "type": "key",
+      "label": "Raccourci du téléporteur",
+      "default": "Alt+T"
+    }
+  ]
+}
