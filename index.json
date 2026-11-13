@@ -1,14 +1,28 @@
 {
-  "format": 1,
+  "format": 2,
   "plugins": [
     {
       "id": "anti-pluie",
       "name": "Anti-pluie",
       "description": "Coupe la pluie et la neige (et leur son), quelle que soit la qualité (Ruffle natif). Son état s'affiche dans la barre du jeu.",
-      "version": "1.0.1",
       "author": "Volting",
+      "versions": [
+        {
+          "version": "1.0.1",
+          "minVersion": "0.3.2",
+          "name": "Anti-pluie",
+          "description": "Coupe la pluie et la neige (et leur son), quelle que soit la qualité (Ruffle natif). Son état s'affiche dans la barre du jeu.",
+          "author": "Volting",
+          "path": "plugins/anti-pluie/versions/1.0.1",
+          "files": {
+            "plugin.json": "87216268ae865b705a9b43fb12309e3962c119430f43a1424b315c503e60c91d",
+            "main.js": "5c8ece71c86a98ed0ae2ae6766c9607d6202b6b3bd000925369b94d94a76de50"
+          }
+        }
+      ],
+      "version": "1.0.1",
       "files": {
-        "plugin.json": "07bbd08a49944db88a0ed5b131917e656a264a1483f1753c0fc4561afb20baad",
+        "plugin.json": "87216268ae865b705a9b43fb12309e3962c119430f43a1424b315c503e60c91d",
         "main.js": "5c8ece71c86a98ed0ae2ae6766c9607d6202b6b3bd000925369b94d94a76de50"
       }
     },
@@ -16,10 +30,24 @@
       "id": "jetpack",
       "name": "Jetpack",
       "description": "Active ou coupe le jetpack d’un raccourci (Alt+V par défaut) (le légendaire en priorité).",
-      "version": "1.1.1",
       "author": "Volting",
+      "versions": [
+        {
+          "version": "1.1.1",
+          "minVersion": "0.3.2",
+          "name": "Jetpack",
+          "description": "Active ou coupe le jetpack d’un raccourci (Alt+V par défaut) (le légendaire en priorité).",
+          "author": "Volting",
+          "path": "plugins/jetpack/versions/1.1.1",
+          "files": {
+            "plugin.json": "24f00e08d548bacb656eb6b1cbef51be0ed6c4f1ac0e2df4a9ce0268d156b9dd",
+            "main.js": "45ec2889727f4bff66e8a99749f243d473b5df2445be4348bf53848d9156537e"
+          }
+        }
+      ],
+      "version": "1.1.1",
       "files": {
-        "plugin.json": "f463605c1baf92cb9875b8979726835b23a371e84937b369862795121fa5d483",
+        "plugin.json": "24f00e08d548bacb656eb6b1cbef51be0ed6c4f1ac0e2df4a9ce0268d156b9dd",
         "main.js": "45ec2889727f4bff66e8a99749f243d473b5df2445be4348bf53848d9156537e"
       }
     },
@@ -27,10 +55,36 @@
       "id": "previsions-meteo",
       "name": "Prévisions météo",
       "description": "Annonce la pluie, la neige, les orages et le brouillard de la map à venir (jusqu'à 6 h), calculés comme le jeu les calcule. Dans la barre du jeu, avec une alerte avant l'arrivée si vous le voulez.",
-      "version": "1.0.0",
       "author": "Volting",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "minVersion": "0.3.3",
+          "name": "Prévisions météo",
+          "description": "Annonce la pluie, la neige, les orages et le brouillard de la map à venir (jusqu'à 6 h), calculés comme le jeu les calcule. Dans la barre du jeu, avec une alerte avant l'arrivée si vous le voulez.",
+          "author": "Volting",
+          "path": "plugins/previsions-meteo/versions/1.1.0",
+          "files": {
+            "plugin.json": "b241a7380ea63fd27edee5052c4f8cdf269030b77ed7f392120a4c9c13e93d4f",
+            "main.js": "2a9f7d89080f6554e53e5f3421bd56fb996d5e781507545036b77f2e397d986d"
+          }
+        },
+        {
+          "version": "1.0.0",
+          "minVersion": "0.3.2",
+          "name": "Prévisions météo",
+          "description": "Annonce la pluie, la neige, les orages et le brouillard de la map à venir (jusqu'à 6 h), calculés comme le jeu les calcule. Dans la barre du jeu, avec une alerte avant l'arrivée si vous le voulez.",
+          "author": "Volting",
+          "path": "plugins/previsions-meteo/versions/1.0.0",
+          "files": {
+            "plugin.json": "96a589659404123b1d42869f48465ea61bf2fa7ef5fd25b31cd7136c010f67df",
+            "main.js": "cbbd76716400ef66768cd10826eef00c863b7d7918158f96932dc98c640d77b3"
+          }
+        }
+      ],
+      "version": "1.0.0",
       "files": {
-        "plugin.json": "9d6b4b85000267cff9eacc4f35026986aede10188a406186c3da02129ad989ea",
+        "plugin.json": "96a589659404123b1d42869f48465ea61bf2fa7ef5fd25b31cd7136c010f67df",
         "main.js": "cbbd76716400ef66768cd10826eef00c863b7d7918158f96932dc98c640d77b3"
       }
     },
@@ -38,10 +92,24 @@
       "id": "teleporteur",
       "name": "Téléporteur",
       "description": "Ouvre la carte du téléporteur d’un raccourci (Alt+T par défaut) (le légendaire en priorité).",
-      "version": "1.1.1",
       "author": "Volting",
+      "versions": [
+        {
+          "version": "1.1.1",
+          "minVersion": "0.3.2",
+          "name": "Téléporteur",
+          "description": "Ouvre la carte du téléporteur d’un raccourci (Alt+T par défaut) (le légendaire en priorité).",
+          "author": "Volting",
+          "path": "plugins/teleporteur/versions/1.1.1",
+          "files": {
+            "plugin.json": "38a9ab2e1090b648b51fe38390bc2b0dc8f130d62a3009153c0f01aa90e237b3",
+            "main.js": "2e5c4e5ebc063f857c06c25183232983f0ec0988cedc4df5d78554ce8d9618c5"
+          }
+        }
+      ],
+      "version": "1.1.1",
       "files": {
-        "plugin.json": "e0b477f404353720ab236c20a1d7db0960ce38e78eb1f5d0d56ede43dc16fa3b",
+        "plugin.json": "38a9ab2e1090b648b51fe38390bc2b0dc8f130d62a3009153c0f01aa90e237b3",
         "main.js": "2e5c4e5ebc063f857c06c25183232983f0ec0988cedc4df5d78554ce8d9618c5"
       }
     }
