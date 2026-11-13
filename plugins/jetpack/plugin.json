@@ -1,7 +1,8 @@
 {
   "name": "Jetpack",
   "description": "Active ou coupe le jetpack d’un raccourci (Alt+V par défaut) (le légendaire en priorité).",
-  "version": "1.1.0",
+  "version": "1.1.1",
+  "author": "Volting",
   "settings": [
     {
       "id": "key",

@@ -11,11 +11,11 @@ Les plugins installés se mettent à jour tout seuls depuis ce dépôt : au lanc
 ## Plugins disponibles
 
 <!-- CATALOGUE -->
-| Plugin | Version | Description |
-|---|---|---|
-| **Anti-pluie** (`anti-pluie`) | 1.0.0 | Coupe la pluie et la neige (et leur son), quelle que soit la qualité (Ruffle natif). Son état s'affiche dans la barre du jeu. |
-| **Jetpack** (`jetpack`) | 1.1.0 | Active ou coupe le jetpack d’un raccourci (Alt+V par défaut) (le légendaire en priorité). |
-| **Téléporteur** (`teleporteur`) | 1.1.0 | Ouvre la carte du téléporteur d’un raccourci (Alt+T par défaut) (le légendaire en priorité). |
+| Plugin | Auteur | Version | Description |
+|---|---|---|---|
+| **Anti-pluie** (`anti-pluie`) | Volting | 1.0.1 | Coupe la pluie et la neige (et leur son), quelle que soit la qualité (Ruffle natif). Son état s'affiche dans la barre du jeu. |
+| **Jetpack** (`jetpack`) | Volting | 1.1.1 | Active ou coupe le jetpack d’un raccourci (Alt+V par défaut) (le légendaire en priorité). |
+| **Téléporteur** (`teleporteur`) | Volting | 1.1.1 | Ouvre la carte du téléporteur d’un raccourci (Alt+T par défaut) (le légendaire en priorité). |
 <!-- /CATALOGUE -->
 
 ## Écrire un plugin
@@ -24,13 +24,13 @@ Un plugin est un dossier de `plugins/` contenant deux fichiers :
 
 ```
 plugins/mon-plugin/
-  plugin.json   {"name": "Mon plugin", "description": "Ce qu'il fait.", "version": "1.0.0"}
+  plugin.json   {"name": "Mon plugin", "description": "Ce qu'il fait.", "version": "1.0.0", "author": "Votre pseudo"}
   main.js       le code
 ```
 
 Le nom du dossier sert d'identifiant : minuscules, chiffres et tirets.
 
-`plugin.json` peut aussi déclarer `"author"` et des `"settings"`, réglages affichés sous le plugin dans le menu **Plugins** :
+`name`, `version` et `author` (votre pseudo, affiché dans Horizon) sont obligatoires. `plugin.json` peut aussi déclarer des `"settings"`, réglages affichés sous le plugin dans le menu **Plugins** :
 
 ```json
 "settings": [

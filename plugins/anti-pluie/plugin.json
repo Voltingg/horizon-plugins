@@ -1,10 +1,21 @@
 {
   "name": "Anti-pluie",
   "description": "Coupe la pluie et la neige (et leur son), quelle que soit la qualité (Ruffle natif). Son état s'affiche dans la barre du jeu.",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "author": "Volting",
   "defaultEnabled": false,
   "settings": [
-    { "id": "toggleKey", "type": "key", "label": "Raccourci pour couper ou remettre la pluie", "default": "Alt+P" },
-    { "id": "startOn", "type": "boolean", "label": "Pluie coupée dès la connexion", "default": true }
+    {
+      "id": "toggleKey",
+      "type": "key",
+      "label": "Raccourci pour couper ou remettre la pluie",
+      "default": "Alt+P"
+    },
+    {
+      "id": "startOn",
+      "type": "boolean",
+      "label": "Pluie coupée dès la connexion",
+      "default": true
+    }
   ]
 }

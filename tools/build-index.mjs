@@ -17,13 +17,13 @@ const plugins = fs
   .map((e) => {
     const dir = path.join(root, 'plugins', e.name)
     const manifest = JSON.parse(fs.readFileSync(path.join(dir, 'plugin.json'), 'utf8'))
-    if (!manifest.name || !manifest.version) throw new Error(`${e.name} : name et version requis dans plugin.json`)
+    if (!manifest.name || !manifest.version || !manifest.author) throw new Error(`${e.name} : name, version et author requis dans plugin.json`)
     return {
       id: e.name,
       name: manifest.name,
       description: manifest.description ?? '',
       version: manifest.version,
-      author: manifest.author ?? 'Horizon',
+      author: manifest.author,
       files: Object.fromEntries(FILES.map((f) => [f, sha256(fs.readFileSync(path.join(dir, f)))])),
     }
   })
@@ -33,9 +33,9 @@ fs.writeFileSync(path.join(root, 'index.json'), JSON.stringify({ format: 1, plug
 
 const readme = path.join(root, 'README.md')
 const table = [
-  '| Plugin | Version | Description |',
-  '|---|---|---|',
-  ...plugins.map((p) => `| **${p.name}** (\`${p.id}\`) | ${p.version} | ${p.description.replace(/\|/g, '\\|')} |`),
+  '| Plugin | Auteur | Version | Description |',
+  '|---|---|---|---|',
+  ...plugins.map((p) => `| **${p.name}** (\`${p.id}\`) | ${p.author} | ${p.version} | ${p.description.replace(/\|/g, '\\|')} |`),
 ].join('\n')
 const text = fs.readFileSync(readme, 'utf8')
 fs.writeFileSync(readme, text.replace(/<!-- CATALOGUE -->[\s\S]*<!-- \/CATALOGUE -->/, `<!-- CATALOGUE -->\n${table}\n<!-- /CATALOGUE -->`))
